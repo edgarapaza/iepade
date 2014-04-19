@@ -1,13 +1,25 @@
+<script src="js/vendor/jquery-1.10.2.min.js"></script>
+<script language="text/javascript">
+	$(document).ready(function(){
+	  	if ($("#mostrar").click()){
+	    	{
+				$("#detalles").css("display", "block");
+			}else{
+				$("#detalles").css("display", "none");
+			}
+	    });
+	});
+</script>
 <link rel="stylesheet" href="investigadores.css">
 <section>
 		<h2>INVESTIGADORES PRINCIPALES</h2>
 	<br>
-		<h3>Jhenry William Sonco Justo</h3>
+		<h3><a href="#" id="mostrar">Jhenry William Sonco Justo</a href="#"></h3>
 		<p>Investigador Principal <br>
 		Lic. en Sociología  UNA - Puno <br>
 		Mgs. Gestión Pública y Desarrollo Regional UNSAC – Cusco
 		</p>
-		<div class="detalles">
+		<div id="detalles" style="display: none">
 			<p>Licenciado en Sociología de la Universidad Nacional del Altiplano de la ciudad de Puno, y Msc. en Economía, mención: Gestión Publica y Desarrollo Regional de la Universidad Nacional de San Antonio Abad del Cusco, especializado en  Gestión Publica, Formulación, Evaluación y Monitoreo de proyectos de desarrollo, SNIP, Gestión de Riesgos y Desastres, Investigación Científica, Evaluación  Ambiental, Docencia de nivel Superior y ponencias en temas sociales.</p>
 			<span class="foto">
 				FOTO
