@@ -1,0 +1,36 @@
+
+*{
+	margin:0;
+	padding: 0;
+}
+body
+{
+	font-size: 16px;
+	font-family: 'Arial Narrow';
+}
+#sec
+{
+	background-color: white;
+	height: 200px;
+}
+#menu ul li
+{
+	display: inline-block;
+	float: right;
+}
+#menu ul li a
+{
+	margin: 20px 20px;
+}
+
+#buscar ul li a
+{
+	text-decoration: none;
+	color: #0E0E3D;
+}
+#buscar ul li a:hover
+{
+	text-decoration: none;
+	color: #0E0E3D;
+	background-color: #F8FB88
+}
