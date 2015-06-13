@@ -1,7 +1,7 @@
 <?php
 include 'header.html';
 ?>
-
+<h2>HOLA ALUMNOS!!!</h2>
 <section id="contenido">
 	<div class="cajas">
 		<div class="caja-superior">
